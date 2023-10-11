@@ -1,0 +1,125 @@
+.album {
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+.card {
+  box-shadow: inset 3px 3px 10px black;
+}
+.bd-placeholder-img {
+  height: 20rem;
+}
+.img {
+  object-fit: cover;
+  object-position: bottom;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #d4cccc;
+}
+
+header {
+  background-color: #d4cccc;
+}
+.d-block {
+  padding-top: 1rem;
+}
+.logo {
+  border-radius: 50%;
+  box-shadow: 5px 5px 25px rgb(100, 89, 89);
+  border: 12px solid rgb(100, 89, 89);
+  mix-blend-mode: color-burn;
+  position: fixed;
+  top: 1.5rem;
+  left: 5rem;
+}
+.title {
+  /* position: fixed;
+  top: 3rem;
+  left: 50%; */
+  font-size: 8rem;
+  position: relative;
+  left: 50%;
+  top: 2rem;
+}
+.language-bar {
+  border: 1px solid rgba(53, 51, 51, 0.4);
+  padding: 5px 12px 5px 14px;
+  border-radius: 7px;
+  font-size: 1.5rem;
+}
+.btn-group {
+  gap: 1rem;
+}
+.btn-card {
+  border-radius: 7px;
+  box-shadow: inset 1px 1px 3px rgb(255, 253, 253);
+  color: #000;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+  padding: 5px 25px 5px 25px;
+}
+small {
+  font-weight: 700;
+  font-size: 20px;
+}
+.filter-menu {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px 25px 5px 5px;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  height: 70%;
+  width: 23%;
+}
+.filter-text {
+  color: black;
+  cursor: pointer;
+}
+.filter-text:hover {
+  color: rgb(83, 56, 56);
+  font-weight: 600;
+  transition: 0.3s;
+}
+.nav-link {
+  color: black;
+}
+.card-contain {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  padding: 8px 18px;
+}
+.checkbox {
+  font-size: 20px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px;
+}
+.label-description {
+  margin-top: 2px;
+}
+.titel-allergic {
+  font-weight: 700;
+}
+
+.titel-side-category {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.label-description {
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.filter-list {
+  margin-left: 1rem;
+}
